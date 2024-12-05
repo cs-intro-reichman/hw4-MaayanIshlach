@@ -6,7 +6,6 @@ public class Primes {
         for (int i=0;i<n;i++)
         {
             if (Is_prime(i)) {
-                System.out.println(i);
                 count++;
             }
         }
