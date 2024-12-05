@@ -4,7 +4,7 @@ public class Primes {
         int count=0;
         double per;
         System.out.println("Prime numbers up to "+n+":");
-        for (int i=0;i<n;i++)
+        for (int i=0;i<n+1;i++)
         {
             if (Is_prime(i)) {
                 System.out.println(i);
